@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana;
+  color: black;
+  background-color: white;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  background-color: black;
+  width: 100vw;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+nav > a {
+  color: rgb(6, 250, 6);
+}
+
+nav > a:visited {
+  color: rgb(6, 250, 6);
+}
+
+main {
+  margin-top: 50px;
+}
