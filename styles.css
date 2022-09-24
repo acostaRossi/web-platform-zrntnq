@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 14px;
+}
+
 body {
   margin: 0;
   font-family: Verdana;
@@ -9,10 +13,22 @@ body {
   background-color: white;
 }
 
+#container-main {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #header {
   width: 100vw;
   height: 50px;
   background-color: #222222;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1140px;
 }
 
 nav {
@@ -33,12 +49,23 @@ nav > a:visited {
 
 #search {
   float: right;
-  height: 100%;
   margin-right: 50px;
+  margin-top: 12px;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 #search input {
-  margin-top: 13px;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  height: 25px;
+}
+
+#search button {
+  background-color: #fff;
+  border: none;
+  margin-right: 5px;
 }
 
 #container-logo {
@@ -49,19 +76,24 @@ nav > a:visited {
 }
 
 #rossi-logo {
+  float: left;
   height: 100px;
   margin-top: 20px;
   margin-left: 50px;
 }
 
 #container-h {
-  margin-left: 50px;
+  margin-left: 30px;
+  letter-spacing: 1px;
 }
 
 #container-h > h1 {
   background: aliceblue;
   opacity: 0.6;
-  font-weight: 500;
+  font-weight: 300;
+  font-family: 'avantgardelt_extralight', arial;
+  padding: 10px 0;
+  margin-bottom: 0px;
 }
 
 #container-h > h3 {
@@ -69,6 +101,7 @@ nav > a:visited {
   opacity: 0.6;
   display: inline;
   font-weight: 500;
+  font-family: 'avantgardelt_extralight', arial;
 }
 
 #container-h {
